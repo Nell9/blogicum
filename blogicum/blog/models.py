@@ -23,7 +23,7 @@ class Location(BaseModel):
         _("Название места"),
         max_length=256
     )
-
+    
     class Meta:
         verbose_name = _("местоположение")
         verbose_name_plural = _("Местоположения")
