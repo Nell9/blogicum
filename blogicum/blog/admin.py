@@ -4,6 +4,7 @@ from .models import Location, Category, Post
 
 class PostAdmin(admin.ModelAdmin):
     list_display = (
+        'id',
         'title',
         'category',
         'is_published'
